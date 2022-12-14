@@ -1,0 +1,8 @@
+
+---
+name: DDEV Composer install
+command: "ddev composer install -d app"
+tags:
+  - ddev
+description: Does a composer install in the app container
+author: Volker Kemeter

@@ -1,0 +1,8 @@
+
+---
+name: DDEV Fix
+command: "ddev exec -s web php app/php-cs-fixer fix --config=app/.php-cs-fixer.php -vvv --diff  --allow-risky=yes"
+tags:
+  - ddev
+description: Starts the fix cmd for linting of code
+author: Volker Kemeter

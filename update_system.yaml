@@ -1,0 +1,10 @@
+
+---
+name: Brew updates und upgrades
+command: "brew update && brew upgrade && brew cleanup -s"
+tags:
+  - system
+  - macos
+  - brew
+description: Updates und upgrades brew and dependencies
+author: Volker Kemeter

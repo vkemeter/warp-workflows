@@ -1,0 +1,8 @@
+
+---
+name: DDEV Clear TYPO3 Cache
+command: "ddev t3 cache:flush -vvv --verbose"
+tags:
+  - ddev
+description: Clears the TYPO3 Cache within a running DDEV Container
+author: Volker Kemeter

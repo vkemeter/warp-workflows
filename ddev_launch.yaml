@@ -1,0 +1,12 @@
+
+---
+name: DDEV Launch Site
+command: "ddev launch {{path}}"
+tags:
+  - ddev
+description: Launches the DDEV Site in the default Browser
+arguments:
+  - name: path
+    description: the URI/ Path you want to launch (default /typo3)
+    default: "/typo3"
+author: Volker Kemeter

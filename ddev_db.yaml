@@ -1,0 +1,9 @@
+
+---
+name: DDEV TYPO3 database compare
+command: "ddev t3 database:updateschema"
+tags:
+  - ddev
+  - typo3
+description: Updates the TYPO3 DB schema
+author: Volker Kemeter
