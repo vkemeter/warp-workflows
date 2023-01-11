@@ -1,0 +1,9 @@
+
+---
+name: DDEV Colima
+command: "colima start"
+tags:
+  - ddev
+  - colima
+description: Start Colima as Docker Container Mangement
+author: Volker Kemeter
