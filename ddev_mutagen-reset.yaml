@@ -1,0 +1,9 @@
+
+---
+name: DDEV Mutagen Reset
+command: "ddev mutagen reset && ddev restart"
+tags:
+  - ddev
+  - mutagen
+description: Resets the Mutagen cache and restarts the ddev container
+author: Volker Kemeter
