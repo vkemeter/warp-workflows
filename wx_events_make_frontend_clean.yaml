@@ -1,0 +1,11 @@
+
+---
+name: Make a clean WIENXTRA Event-System Frontend Build
+command: "cd events && nvm use && rm -Rf node_modules && cd .. && make frontend"
+tags:
+  - wienxtra
+  - node
+  - frontend
+  - pipeline
+description: Stay in wienxtra root folder, uses correct node version, removes node_modules folder and calls make frontend
+author: Volker Kemeter
