@@ -1,0 +1,11 @@
+
+---
+name: Kill the Colima Process 
+command: "kill -9 $(ps aux | grep limactl | head -1 | awk '{print $2}') && colima restart && ddev poweroff"
+tags:
+  - system
+  - macos
+  - kill
+  - process
+description: Kills the colima process. Use it, when ddev is not working
+author: Volker Kemeter
