@@ -1,0 +1,11 @@
+
+---
+name: Create a New Colima Process (ALL CONTAINERS ARE GONE THEN!)
+command: "colima start --cpu 4 --memory 8 --disk 160 --arch aarch64 --vm-type=vz --vz-rosetta --dns=1.1.1.1"
+tags:
+  - system
+  - macos
+  - colima
+  - process
+description: Starts a new colima process.
+author: Volker Kemeter
